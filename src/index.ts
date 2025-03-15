@@ -62,8 +62,8 @@ function renderInformation(){
                   <p class="text-[20px] mb-2 font-semibold ">Price: ${parsePhoneData.showPrice}</p>
                   <p class="text[16px]">${parsePhoneData.information}</p>
                   <div class="mt-5 flex gap-4">
-                      <a href="./index.html"><button class="bg-blue-600 px-7 py-2 font-poppins text-[18px] text-white rounded-md">Back</button></a>
-                      <button class="bg-yellow-500 px-7 py-2 font-poppins text-[18px] text-white rounded-md">Add to Card</button>
+                      <a href="./index.html"><button class="bg-gray-800 px-7 py-2 font-poppins text-[18px] text-white rounded-md">Back</button></a>
+                      ${parsePhoneData.isAddedToCart? `<a href=""><button class="rounded-md bg-yellow-500 px-7 py-2 text-white text-[18px]">Retrieve</button></a>` :`<a href=""><button class="bg-blue-600 px-7 py-2 font-poppins text-[18px] text-white rounded-md">Add to Cart</button></a>`}
                   </div>
               </div>
           </div>`
