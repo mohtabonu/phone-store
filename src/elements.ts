@@ -1,0 +1,1 @@
+export const boxesWrapper=document.querySelector("#boxes-wrapper")

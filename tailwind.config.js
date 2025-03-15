@@ -11,7 +11,10 @@ export default {
       },
       fontFamily: {
         poppins: 'Poppins'
+      },
+      fontFamily:{
+        poppins:"Poppins"
       }
     }
   }
-};
+}
