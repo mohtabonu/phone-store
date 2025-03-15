@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const buttonsWrapper = document.createElement('div');
         buttonsWrapper.className = 'mt-8 flex w-full items-center justify-between';
         buttonsWrapper.innerHTML = `
-            <a href=""><button class="rounded-md bg-green-500 px-2 py-1 text-white">Information</button></a>
+            <a href=""><button class="rounded-md bg-green-500 px-2 py-1 text-white" data-value=${phone.idName}>Information</button></a>
               ${phone.isAddedToCart? `<a href=""><button class="rounded-md bg-yellow-500 px-2 py-1 text-white">Retrieve</button></a>` :`<a href=""><button class="rounded-md bg-blue-500 px-2 py-1 text-white">Add to Cart</button></a>`}`;
         bottomWrapper.appendChild(buttonsWrapper);
         box.appendChild(bottomWrapper);
