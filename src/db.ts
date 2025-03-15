@@ -28,7 +28,7 @@
     isAddedToCart:false
   },
   'vivo-y-28': {
-    idName: 'vivi-y-28',
+    idName: 'vivo-y-28',
     showName: 'Vivo Y 28',
     numberPrice: '2999000',
     showPrice: "2 999 000 so'm",
