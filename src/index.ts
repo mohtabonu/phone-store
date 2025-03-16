@@ -1,5 +1,5 @@
 import { phonesData } from './db';
-import { boxesWrapper, informationContainer} from './elements';
+import { boxesWrapper, cartContainer, infoContainer, informationContainer, logo, mainContainer} from './elements';
 
 document.addEventListener('DOMContentLoaded', function () {
   function createBox() {
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         buttonsWrapper.className = 'mt-8 flex w-full items-center justify-between';
         buttonsWrapper.innerHTML = `
             <button class="information-btn rounded-md bg-green-500 px-2 py-1 text-white" data-value=${phone.idName}>Information</button>
-              ${phone.isAddedToCart? `<a href=""><button class="rounded-md bg-yellow-500 px-2 py-1 text-white">Retrieve</button></a>` :`<a href=""><button class="rounded-md bg-blue-500 px-2 py-1 text-white">Add to Cart</button></a>`}`;
+              ${phone.isAddedToCart? `<a href=""><button class="rounded-md bg-yellow-500 px-2 py-1 text-white">In Cart</button></a>` :`<a href=""><button class="rounded-md bg-blue-500 px-2 py-1 text-white" data-value=${phone.idName}>Add to Cart</button></a>`}`;
         bottomWrapper.appendChild(buttonsWrapper);
         box.appendChild(bottomWrapper);
         boxesWrapper?.appendChild(box);
@@ -32,7 +32,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-
+  logo.addEventListener("click",()=>{
+    console.log(logo)
+    console.log("first")
+    mainContainer.className="block";
+    infoContainer.className="hidden";
+    cartContainer.className="hidden";
+  })
  function getInformation(){
     const informationBtn = document.querySelectorAll('.information-btn')
     informationBtn.forEach(btn => {
