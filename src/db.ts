@@ -7,7 +7,7 @@
     information: `Dolby Atmos qo‘llab-quvvatlanadigan stereodinamiklar ovoz balandligini 300%gacha oshirib, hajmli va to‘yingan tovushni ta’minlaydi. Bu video tomosha qilishda, o‘yinlarda va musiqani tinglashda chuqur taassurot hissini yaratadi.
 64 Mp SONY IMX682 sensorli va to‘rtta chaqnashli asosiy kamera istalgan yorug‘lik sharoitlarida ham aniq va yorqin suratlarni, tabiiy ranglarni va yuqori darajadagi batafsillikni saqlashga imkon beradi.`,
     pictureLink: 'https://images.uzum.uz/csouas3vgbkpg1nllvpg/original.jpg',
-    isAddedToCart:false
+    isAddedToCart: false
   },
   'realme-note-50': {
     idName: 'realme-note-50',
@@ -24,7 +24,7 @@
     numberPrice: '2649000',
     showPrice: "2 649 000 so'm",
     information: `Asosiy kamera: 50 MP, f/1.8, (keng), AF 5 MP, f/2.2, (ultra keng) 2 MP, f/2.4, (makro) IP54, chang va chayqalishga qarshi Shisha old, plastik orqa, plastik ramka Display: 6.7" Super AMOLED, 90 Gz Ruxsat: 1080 x 2340 piksel (385ppi) Barcha IMEI lar rasmiy ro'yxatdan o'tgan va ro'yxatga olish faollashuvi 30 kun ichida amalga oshiriladi. Ishlab chiqaruvchi o'z mahsulotlariga 12 oylik kafolat beradi. Selfi kamera: 13 MP, f/2.0, (keng) Batareya: 5000 mA/s, olinmaydigan`,
-    pictureLink: 'https://images.uzum.uz/ct4kbjlpb7f3jk81avb0/original.jpg',
+    pictureLink: 'https://images.uzum.uz/csut45dpq3ggq63ec46g/original.jpg',
     isAddedToCart:false
   },
   'vivo-y-28': {
@@ -33,7 +33,7 @@
     numberPrice: '2999000',
     showPrice: "2 999 000 so'm",
     information: `Vivo Y28 2024-yil yanvarda taqdim etilgan. U 6,56 dyuymli 90Hz ekranga, MediaTek Helio G85 protsessoriga, 8 GB operativ va 128/256 GB ichki xotiraga ega. Orqa kamerasi 50 MP + 2 MP, old kamerasi 8 MP. 6000 mAh batareya 44W tezkor zaryadlashni qo‘llab-quvvatlaydi. Android 14 (Funtouch OS 14) tizimida ishlaydi. IP54 chang va suvga chidamli. Taxminiy narxi 180-200 AQSh dollari.`,
-    pictureLink: 'https://images.uzum.uz/cpn5tar6eisq2rkcab5g/original.jpg',
+    pictureLink: 'https://images.uzum.uz/cuqb8gdpb7f8r31vh4qg/original.jpg',
     isAddedToCart:false
   },
   'honor-x8-b': {

@@ -10,20 +10,21 @@
     <link rel="stylesheet" href="/dist/index.css" />
     <title>Phone store</title>
   </head>
-  <body class="pb-[150px]">
-    <div id="main" class="block">
-      <div class="flex h-[120px] w-full items-center justify-between bg-gray-400 px-14">
-        <div class="w-[100px]">
-          <img class="w-full cursor-pointer" src="https://png.pngtree.com/png-clipart/20230124/original/pngtree-online-shop-logo-design-with-modern-concept-png-image_8929445.png" id="logo"  />
-        </div>
-        <a href="#"><button class="rounded-md bg-blue-600 px-7 py-2 font-poppins text-[18px] text-white">Cart</button></a>
+  <body class="pb-[100px]">
+    <div class="flex py-1 w-full items-center justify-between bg-gray-400 px-14">
+      <div class="w-[100px]">
+        <img class="w-full cursor-pointer" src="https://png.pngtree.com/png-clipart/20230124/original/pngtree-online-shop-logo-design-with-modern-concept-png-image_8929445.png" id="logo"  />
       </div>
+      <a href="#"><button class="rounded-md bg-blue-600 px-7 py-2 font-poppins text-[18px] text-white">Cart</button></a>
+    </div>
+
+    <div id="main" class="block">
       <div class="mt-11 flex w-full items-center justify-center">
-        <div class="grid w-[70%] grid-cols-4 gap-7" id="boxes-wrapper"></div>
+        <div class="grid  grid-cols-4 w-[70%] gap-8" id="boxes-wrapper"></div>
       </div>
     </div>
-    <div id="information" class="block">information</div>
-    <div id="cart" class="block">Cart</div>
+    <div id="information" class="flex-col justify-center items-center my-8"></div>
+    <div id="cart" class="block"></div>
   </body>
   <script src="/dist/index.js" type="module"></script>
 </html>
